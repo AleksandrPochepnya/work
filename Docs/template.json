@@ -1,0 +1,102 @@
+{
+    "bsTypes": [
+        {
+            "pattern": "UNKNOWN",
+            "select": true,
+            "type": 0
+        },
+        {
+            "pattern": "GSM",
+            "select": true,
+            "type": 1
+        },
+        {
+            "pattern": "UMTS",
+            "select": true,
+            "type": 2
+        },
+        {
+            "pattern": "LTE",
+            "select": true,
+            "type": 3
+        },
+        {
+            "pattern": "CDMA",
+            "select": true,
+            "type": 4
+        },
+        {
+            "pattern": "5G",
+            "select": false,
+            "type": 5
+        }
+    ],
+    "defaultBsType": 0,
+    "firstRow": 4,
+    "lastRow": 29,
+    "mapping": [
+        {
+            "column": 8,
+            "field": "NAME",
+            "select": true
+        },
+        {
+            "column": 2,
+            "field": "MCC",
+            "select": true
+        },
+        {
+            "column": 3,
+            "field": "MNC",
+            "select": true
+        },
+        {
+            "column": 7,
+            "field": "LAC",
+            "select": true
+        },
+        {
+            "column": 8,
+            "field": "CELLID",
+            "select": true
+        },
+        {
+            "column": 11,
+            "field": "LAT",
+            "select": true
+        },
+        {
+            "column": 10,
+            "field": "LON",
+            "select": true
+        },
+        {
+            "column": 12,
+            "field": "ADDRESS",
+            "select": true
+        },
+        {
+            "column": 12,
+            "field": "AZIMUT",
+            "select": true
+        },
+        {
+            "column": 9,
+            "field": "TURN",
+            "select": false,
+            "default": 120
+        },
+        {
+            "column": 14,
+            "field": "HEIGHT",
+            "select": true
+        },
+        {
+            "column": 16,
+            "field": "POWER",
+            "select": true
+        }
+    ],
+    "singleBsType": 3,
+    "useSingleBsType": true
+}
